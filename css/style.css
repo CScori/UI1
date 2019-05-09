@@ -28,6 +28,7 @@ h1 {
   /*=======  Update the font size to 60px and center the text */
   font-size: 60px;
   align-content: center;
+  text-decoration: none;
 }
 
 h2, h3, h4, h5, h6 {
@@ -46,6 +47,9 @@ padding: 10px;
 line-height: 1.4;
 
 */
+*{
+  background: skyblue;
+}
 p {
   font-size: 16px;
   font-family: roboto;
@@ -171,3 +175,34 @@ footer .footer-content .copyright {
   align-content: center;
    /*======= center the text here */
 }
+
+
+
+/* About css*/
+.page-details{
+  width: 600px;
+  height: 800px;
+  margin: 25 auto;
+  background: skyblue;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+
+}
+.top {
+  width: 250px;
+  height: 300px;
+  border: 1px;
+  align-content: center;
+  margin: 50px;
+}
+
+.top2 {
+  width: 250px;
+  height: 300px;
+  border: 1px;
+  align-content: center;
+  margin: 50px;
+}
+
